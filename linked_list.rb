@@ -11,7 +11,6 @@ end
 
 def reverse_list(node)
   stack_list = Stack.new
-  node2 = node
   while node
     stack_list.push(node.value)
     node = node.next_node
